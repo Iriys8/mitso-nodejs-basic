@@ -1,5 +1,5 @@
 const parseEnv = () => {
-    // Write your code here 
+    console.log(Object.keys(process.env).filter(item => item.includes("MITSO_")));
 };
 
 parseEnv();
